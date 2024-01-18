@@ -36,3 +36,5 @@ Note: In this project you will need 3 COS buckets:
 ## Expected Output
 
 If you run it correcty, this Streamlit app will provide you this kind of output
+
+![ext_img_pdf](https://github.com/thursy/extract-image-pdf/assets/32385413/257b252d-0143-4d0a-809e-c4857f37732b)
