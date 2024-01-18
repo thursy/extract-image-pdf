@@ -1,0 +1,13 @@
+ibm-watson-machine-learning==1.0.327
+numpy==1.24.2
+pandas==1.5.3
+streamlit==1.24.1
+streamlit-elements==0.1.*
+python-dotenv==1.0.0
+ibm-cos-sdk
+pymupdf
+ibm-watson
+watson-developer-cloud
+
+#uncomment incase you want to run some ipynb file
+#jupyter==1.0.0  
