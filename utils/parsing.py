@@ -27,7 +27,7 @@ def parsing_pdf(tempfile, filename, bucket_name, endpoint_url_public, res):
 
             try:
                 #if success then compose url
-                # https://cos-bni-img-public-2023.s3.jp-tok.cloud-object-storage.appdomain.cloud/645d738f5f15f.png
+                # https://cos-img-public-2023.s3.jp-tok.cloud-object-storage.appdomain.cloud/645d738f5f15f.png
                 # https://{bucket_name}.{endpoint_url_public}/{file_obj_name}
                 #def upload_fileobj(bucket_name, item_name, item_bin, res):
                 upload_fileobj(bucket_name, file_obj_name, img_dict['img_binary'], res)
