@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 import streamlit as st
 import fitz
 
-bucket_staging = "cos-staging-bni-onboard-1"
-bucket_parsing = "cos-parsing-bni-onboard-1"
-bucket_knowledge = "cos-knowledge-bni-onboard-1"
+bucket_staging = "cos-staging-onboard-1"
+bucket_parsing = "cos-parsing-onboard-1"
+bucket_knowledge = "cos-knowledge-onboard-1"
 #============================GET CREDENTIALS===================================
 load_dotenv()
 cred_cos = {
