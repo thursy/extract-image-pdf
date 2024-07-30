@@ -36,7 +36,7 @@ with st.sidebar:
     st.markdown("Upload a document to store it to the knowledge based")
     uploaded_file = st.file_uploader("Source File:", accept_multiple_files=False, type=["pdf"])
 #==============================STREAMLIT ELEMENT===============================
-###==============================HEADER KOMINFO================================
+###==============================HEADER ATTRIBUTES================================
 page_navbar()
 ###===========================UPLOADEDFILE CONTENT=============================  
 if uploaded_file:
